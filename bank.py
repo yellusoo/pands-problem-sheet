@@ -6,4 +6,4 @@ secondvalue = input("Enter your second amount in cents please ")
 total = int(firstvalue) + int(secondvalue)
 totaleuro = total/100
 totalreadable = "€" + (str(totaleuro))
-print(totalreadable)
+print("Your total is " + (str(totalreadable)))
