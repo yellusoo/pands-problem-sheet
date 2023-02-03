@@ -1,4 +1,9 @@
 #Week 2 problem sheet
 #Author; OOS
 
-print("Enter your number")
+firstvalue = input("Enter your first amount in cents please ")
+secondvalue = input("Enter your second amount in cents please ")
+total = int(firstvalue) + int(secondvalue)
+totaleuro = total/100
+totalreadable = "€" + (str(totaleuro))
+print(totalreadable)
